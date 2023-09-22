@@ -1,0 +1,37 @@
+/*marco ramos 09-21-2023*/
+body {
+    color: #333333;
+    font-size: 19px;
+    padding: 30px;
+   background-color: whitesmoke;
+}
+p {
+    font-size:  19px;
+    color: black;
+   }
+a {
+    color: darkred;
+}
+a:hover {
+color: lightcoral;
+}
+.intro {
+    font-size: 19px;
+    color: rgb(56, 56, 218);
+    text-align: left;
+}
+.title {
+    text-align: center;
+}
+.highlight {
+    color: black;
+}
+.alert {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.blue {
+    background: blue;
+}
