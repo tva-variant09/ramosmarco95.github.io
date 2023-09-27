@@ -1,0 +1,43 @@
+
+body {
+ background: #b0e0fc; 
+}	
+
+#outerwrapper {
+  width: 40;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: dotted;
+}
+
+/* add first-of-type to target h2 */
+h2:first-of-type, h3 {
+  padding-left: .5em;
+}
+
+/* add nth-child(odd) to target ul li */
+li:nth-child(odd) {
+  font-style: italic;
+}
+
+/* order-based selectors to the anchor tag
+  :link, :visited, :hover, :active */
+  a:link {
+  color: blueviolet;
+  }
+  a:visited {
+    color: rgb(82, 82, 2);
+  }
+  a:hover {
+    color: orange;
+  }
+  a:active {
+    color: red;
+  }
+
+footer
+{
+  background: #ffffff; 
+  text-align: center;
+  padding: .25em;
+}
