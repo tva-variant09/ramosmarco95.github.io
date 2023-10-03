@@ -20,7 +20,7 @@ padding: 10px;
 body {
 background-color: #b8d1eb;
 color: #000000;
-font: Times New Roman, Times, Serif;
+font-family: "Times New Roman", Times, serif;
 }
 h1 {
 	font-family: georgia, serif;
@@ -36,8 +36,7 @@ h2 {
 	font-style: italic;
 }
 main ul {
-	list-style-image: url("../images/tomato.png");/*I could not put the list left away from picture*/
-	text-size-adjust: left;	
+	list-style-image: url("../images/tomato.png");/*I could not put the list left away from picture*/	
 }
 footer{
 	font-size: .75em;
