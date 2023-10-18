@@ -1,0 +1,28 @@
+/*marco ramos*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+header {
+    background-color: #a8d6eb;
+    font-family: 'Anton', sans-serif;;
+}
+h2 {
+    font-size: 1.5em;
+}
+#value {
+    background-color:  #AEF0CC;
+}
+#example {
+    background-color: #E3ADB9;
+    
+}
+.one {
+    text-decoration-line: none;
+}
+.two {
+    text-decoration: underline;
+}
+.three {
+    text-decoration-line: overline;
+}
+.four {
+    text-decoration-line: line-through;
+}
