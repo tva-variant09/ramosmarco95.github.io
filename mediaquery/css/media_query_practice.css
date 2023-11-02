@@ -1,0 +1,10 @@
+/*marco ramos, 11/02/2023*/
+body {
+    background: #ff0000;
+    color: #ffffff;
+}
+@media screen and (min-width: 600px) {
+    body {
+        background: #0000FF;
+    }
+}
