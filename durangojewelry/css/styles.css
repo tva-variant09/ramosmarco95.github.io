@@ -1,0 +1,60 @@
+/*marco ramos, 10-24-2023 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');/*google fonts from internet*/
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-fontfacekit/webfonts/roboto_regular_ubasic/Roboto-Regular-webfont.woff') format('woff');  
+    font-weight: normal;
+    font-style: normal;
+}	 
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%;/*How can I set up limit width screen and to center the content?*/
+	margin: auto;/*When adding border radius, Do I need to add marging as well?*/
+}
+html {
+	background-image: url("../images/jewelry.jpg");/*what does it mean to target the html tag? this is solved*/
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+footer {
+	font-size: 1em;
+	text-align: center; 
+	padding-bottom: 10px;
+}
+main {
+	background: linear-gradient( rgb(255, 255, 255), rgb(240, 249, 230));
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;/*Does this property add radius to all four coners? this is solved*/
+	font-size: 1.25em;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+	float: left;/*Why this property not work? this is solved*/
+	border-radius: 100%;
+}
+.addrightmargin{
+	margin-right: 10%;
+}
+
+nav ul {
+	list-style: none;/*Why bullets are not removed? Solved*/
+	clear: both;
+	font-size: 1.5em;
+	
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'robotoregular', 'Times New Roman', serif;
+	font-style: italic;
+	font-size: 2em;
+}
+
