@@ -1,71 +1,57 @@
 <!DOCTYPE html>
 <!--Marco Ramos 
-    Mission Impossible
- August 31,2023-->
+ 11/09/2023-->
 <html lang="en">
+
 <head>
-    <Title>missionimpossible</Title>
+    <Title>Mission Impossible</Title>
     <meta name="author" content="Marco"/>
     <meta charset="UTF-8"/>
     <meta name="description" content="Your Name software app designer Boise Idaho"/>
-    <meta name="Keywords" content="client-site server-site software developer programmer"/>
+    <meta name="Keywords" content="mission impossible, lego, emoji, links"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+
 <body>
-
-    <p>Click <a href="#bottom">here</a> to jump to the bottom of the page</p>
-
-    <h1>Heading1 Link Practice</h1> 
-
-    <p>Search the web with <a href="http://Google.com">Google</a></p>
-
-    <p><a href="http://indeed.com">Search for a job on indeed</a> and open this link</p>
-
+ <p>Click <a href="#bottom" rel="bottom page link">here</a> to jump to the bottom of page</p>   
+<h1>Heading1 Linking Practice</h1>
+<p>Search the web with <a href="https://www.google.com/">Google</a></p>
+<p><a href="https://www.indeed.com/" target="_blank" rel="link for Indeed">Search for a job on Indeed</a> and open this link in a new tab</p>
+<hr><!--<hr> tag defines a thematic break in an HTML page (e.g. a shift of topic).-->
+<h1>Heading1 Image Practice</h1>
+<img src="images/wolverine.jpg" alt="wolverine image"/><!--src - Specifies the path to the image
+    alt - Specifies an alternate text for the image,
+ style= attribute to specify the width and height of an image.-->
+ <hr>
+ <h1>Heading1 List Practice</h1>
+ <h2>Heading2 Unordered List: bullets are square</h2>
+<ul style="list-style-type: square;"> <!--disc	Sets the list item marker to a bullet (default),
+    circle=	Sets the list item marker to a circle,
+    square=	Sets the list item marker to a square,
+    none=	The list items will not be marked,-->
+    <li>Snow</li>
+    <li>Rain</li>
+    <li>Ice</li>
+</ul>
+<h2>Heading2 Ordered List: starts at 100</h2>
+<ol start="100"><!--use attribute type(1, A, a, #I, i) or start-->
+    <li>Jennifer</li>
+    <li>Noah</li>
+    <li>Ethan</li>
+</ol>
+<h2>Heading2 Description List</h2>
+<dl><!--<dl> element to define a description list,
+     <dt> element to define the description term,
+    <dd> element to describe the term in a description list -->
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+</dl>
     <hr>
-
-    <h1>Heading 1 Image Practice</h1>
-
-    <img src="images/wolverine.jpg" alt="image of wolverine" width="250" height="344">
-
+    <a href="https://cwi.edu/" target="_blank" rel="cwi website on a new tab"><img src="images/CLICK-ME(1).png" alt="relative link on image"/></a>
+    <p>Click on the image to be taken to the College of Western Idaho website; open link in a new tab.</p>
     <hr>
-
-    <h1>Heading1 List Practice</h1>
-
-    <h2>Heading2 Unordered List : bullets are square</h2>
-
-    <ul style=list-style-type:square;>
-        <li>Snow</li>
-        <li>Rain</li>
-        <li>Ice</li>
-
-    </ul>
-
-    <h2>Heading2 Ordered List : start at 100</h2>
-
-    <ol start="100">
-        <li> Jennifer</li>
-        <li> Noah</li>
-        <li> Ethan</li>
-    </ol>
-
-    <h2>Description List</h2>
-
-    <dl>
-        <dt>Coffee</dt>
-        <dd>Latte</dd>
-        <dt>Tea</dt>
-        <dd>Mint</dd>
-    </dl>
-
-    <hr>
-
-    <a href="http://cwi.edu"><img src="images/CLICK-ME(1).png" alt="http//cwi.edu"  width="250" height="344"></a>
-
-    <p>Click on the image above to be taken to the College of Western Idaho website; open the link in a new tab</p>
-
-    <hr>
-
-    <p id="bottom">The bottom page</p>
-    
+    <p><a id="bottom">The bottom of page</a></p>
 </body>
 </html>
