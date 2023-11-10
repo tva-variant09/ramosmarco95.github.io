@@ -1,3 +1,4 @@
+/*marco ramos, 11/09/2023*/
 body {
     font-family: Arial, sans-serif;
     font-size: 1em;
@@ -6,11 +7,13 @@ body {
 }
 h1 {
     font-size: 2em;
-  font-style:italic;
+  font-style: italic;
 }
 h3 {
     font-size: 1.5em;
-    border-bottom: 1px, solid, black;
+    border-bottom: 1px;
+    color: black;
+    text-decoration: solid;
 }
 .fonts {
     color: orange;
@@ -26,23 +29,24 @@ h3 {
 .more {
     color: blue;
     text-decoration: underline;
-    border: 1px, dashed, gray; /*I couldn't add the border to this part*/
-    background: color #d69bbe;
+    border-style: dashed;
+    border-color: gray;
+    border-radius: 1px; 
+    background-color: #d69bbe;
 }
 .backgrounds {
     color: green;
-    font: 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 1.25em;
 }
 article ul {
     list-style-image: url('../image/peaceSign.png');
 }
-#outerwrapper {
+#outerwrapper{
     width: 650px;
     background-color: #E7DBF6;
     margin-left: auto;
     margin-right: auto;
-
 }
 nav {
     width: 175px;
