@@ -1,0 +1,16 @@
+/*marco ramos, 11/16/2023*/
+:root {
+    --fontSize: 1.25rem;
+    --fontSizeHeading: calc(var(--fontSize) * 3)
+    
+}
+body {
+    font-size: var(--fontSize);
+    text-align: center;
+    background-color: #ccc;
+   
+}
+h1 {
+    font-size: var(--fontSizeHeading);
+    
+}
