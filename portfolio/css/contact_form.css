@@ -1,0 +1,39 @@
+/*marco ramos, 11/14/2023*/
+input{
+    font-size: 1.25rem;
+    padding: 5px;
+    border: 1px solid #333333;
+    transition: all 0.5s ease;
+  
+}
+input:focus{
+    font-size: 1.35rem;
+    padding: 10px;
+    border: 2px solid #008800;
+    outline: none;
+}
+.form{
+    background-color: beige;
+    text-align: left;
+    border: 40px;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    font-size: large;
+    
+
+}
+label{
+    width: auto;
+    display: inline-block;
+    margin: 4px;
+}
+input{
+    margin: 5px;
+}
+#submit{
+    width: auto;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 10px;
+}

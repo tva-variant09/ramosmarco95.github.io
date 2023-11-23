@@ -1,0 +1,13 @@
+.transition_image {
+    padding: 20px;
+    width: 250px;
+    transition: width 2s ease 0.5s ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.transition_image:hover { 
+    width: 350px;
+    
+    }
+   

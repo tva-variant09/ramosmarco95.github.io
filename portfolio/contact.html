@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--Marco Ramos 
+ August 23,2023-->
+<html lang="en">
+<head>
+    <Title>Contact</Title>
+    <meta name="author" content="Marco"/>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="contact, phone, email, information"/>
+    <meta name="Keywords" content="client-site server-site software developer programmer"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="css/contact_portfolio.css" rel="stylesheet"/>
+    <link href="css/contact_form.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="header">
+    <header>
+    <h1>Contact Me!</h1>
+    <div class="nav">
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+</div>
+<div class="main">
+<main>
+
+    <h2>Contact Me</h2>
+    <p>Contact me: &nbsp;&nbsp;<a href="mailto:ramosmarco95@gmail.com"><img src="images/email_icon.png" alt="email icon image"/></a></p>
+       <p>Call me: &nbsp;&nbsp;<a href="tel:+(208) 412-0338"><img src="images/phone_icon.png" alt="phone icon image"/></a></p>
+</main>
+</div>
+<div class="form">
+    <form class="outline" action="mailto:marcoramos@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+    <!-- Group Fields Together, page 104 -->
+    <fieldset>
+    <legend>How do I contact you?</legend>
+        <!-- Company Select Box, page 97 -->
+        <div>
+            <label for="company">Company:</label>
+            <input type="text" name="company"  id="company" size="25"/>   
+        </div>
+        <!-- Person to Contact Select Box, page 97 -->
+        <div>
+            <label for="person-contact">Person to contact:</label>
+            <input type="text" name="person contact"  id="person-contact"/> 
+        </div>
+        <!-- Email, textbook file rental.html -->	
+        <!--Video 9.9 Building and Testing a Valid Form-->	
+        <div>
+            <label for="email-address">Email:</label>
+            <input type="email" name="email" id="email-address" placeholder="Email" required/>
+        </div>
+        <!-- Phone, textbook file rental.html-->
+        <!--Video 9.9 Building and Testing a Valid Form-->
+        <div>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required/>  
+        </div>
+    </fieldset>
+
+    <!-- Group Fields Together, page 104 -->
+    <fieldset>
+        <legend>What opportunities are available at your company?</legend>
+        <!-- Select Box, page 98 -->
+        <label for="type-of-position">Type of Position</label>
+        <select name="type-of-position" id="type-of-position">
+            <option value="internship">Internship</option>
+            <option value="part-time">Part-Time</option>
+            <option value="full-time">Full-Time</option>
+            <option value="contract">Contract</option>
+            <option value="temporary">Temporary</option>
+            <option value="on-call">On Call</option>
+        </select>
+        <!-- Radio Buttons, page 99 -->
+        <p>How did you find me?</p>
+        <input type="radio" name="find-me" id="linkedin" value="linkedin"/>
+        <label for="linkedin">LinkedIn</label>
+        <input type="radio" name="find-me" id="job-fair" value="job-fair"/>
+        <label for="job-fair">Job Fair</label>
+        <input type="radio" name="find-me" id="cwi-corporate-partner" value="cwi-corporate-partner"/>
+        <label for="cwi-corporate-partner">CWI Corporate Partner</label>
+        <div>
+            <!-- Text Area, textbook file code-9-1.html -->	
+            <textarea name="textarea" placeholder="How should I prepare for this interview?" cols="70" rows="10"></textarea>
+        </div>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit" class="btn">
+ </form>
+</div>
+<div class="footer">
+<footer>
+    <hr>
+    <p>Connect: </p>
+        <p><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.png" alt="linkedIn icon image"/></a>&nbsp;&nbsp;&nbsp;  
+        <a href="https://www.github.com" target="_blank"><img src="images/github_icon.png" alt="github icon image"/></a></p>
+</footer>
+</div>
+</div>
+</body>
+</html>
