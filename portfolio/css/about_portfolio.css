@@ -4,9 +4,12 @@
     src: url('../fonts/BPreplayBold.otf')
 }
 @media screen and (max-width: 320px) {
-    main p {
+    p {
         clear: both;
         width: auto;
+    }
+    nav li{
+        display: block;
     }
 }
 html{
