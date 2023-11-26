@@ -10,11 +10,11 @@ body{
     background-position: top;
     
 }
-.outerwrapper {
+.outer_wrapper {
    
 	border-radius: 10px;
-	width: 90%%;
-	margin: 10px;
+	width: 90%;
+	margin: auto;
 }
 header{
     text-align: center;
@@ -65,7 +65,7 @@ nav ul li a:link{/* unvisited link */
   }
   .experience {
     display: flex;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     background: rgba(243,205,170, 0.4);
     border-radius: 10px;
@@ -73,7 +73,7 @@ nav ul li a:link{/* unvisited link */
   .skills {
     display: flex;
     padding: 10px;
-    margin: 10px;
+    
     background: rgba(243,205,170, 0.4);
     border-radius: 10px;
   }
@@ -86,10 +86,7 @@ nav ul li a:link{/* unvisited link */
     display: block;
     text-align: left;
   }
-  .add_area {
-    padding-top: 2em;
-   
-  }
+ 
   .add_area .wrap {
     width: 100%;
    
@@ -97,21 +94,27 @@ nav ul li a:link{/* unvisited link */
 
  
 
-main .project-list .post {
-    margin: 0 2% 2% 2%;
+.project-list .post {
+    margin: 10px 10px 10px 25px;
     float: left;
     display: block;
     width: 45%;
-   float: left;
+   
     flex-direction: column;
     background: rgba(243,205,170, 0.4);
     border-radius: 10px;
-    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 320px) {
     .project-list .post {
      clear: both;
+    }
+    .experience{
+      clear: both;
+    }
+    .skills{
+      clear: both;
     }
   }
 footer {
@@ -137,7 +140,4 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  .thumb picture img{
-    display: flex;
-    overflow: hidden;
-  }
+  
