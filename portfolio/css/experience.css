@@ -109,6 +109,7 @@ nav ul li a:link{/* unvisited link */
 @media screen and (max-width: 320px) {
     .project-list .post {
      clear: both;
+     width: auto;
     }
     .experience{
       clear: both;

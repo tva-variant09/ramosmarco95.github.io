@@ -3,6 +3,12 @@
     font-family: 'BPreplayBold.otf';
     src: url('../fonts/BPreplayBold.otf')
 }
+@media screen and (max-width: 320px) {
+    main p {
+        clear: both;
+        width: auto;
+    }
+}
 html{
     background-image: url("../images/about_image\(colors\).png");
     background-position: top;
