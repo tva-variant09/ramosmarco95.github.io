@@ -2,6 +2,20 @@
     font-family: 'BPreplayBold.otf';
     src: url('../fonts/BPreplayBold.otf')
 }
+@media screen and  (min-width: 150px) and (max-width: 820px) {
+    
+    .grid-container {
+        
+        overflow: hidden;
+        display: grid;
+        grid-template-areas: 
+        'header '
+        'main '
+        'form '
+        'footer ';
+        
+    }
+}
 body{
     background: rgb(2, 9, 23);
     color: white;
