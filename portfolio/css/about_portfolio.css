@@ -3,7 +3,7 @@
     font-family: 'BPreplayBold.otf';
     src: url('../fonts/BPreplayBold.otf')
 }
-@media screen and (min-width: 150px) and (max-width: 450px) {
+@media screen and (min-width: 150px) and (max-width: 400px) {
     p {
         clear: both;
         width: auto;
@@ -14,9 +14,12 @@
     main img {
         clear: both;
         display: block;
-        margin-left: auto;
+        margin-left: 15%;
         margin-right: auto;
         
+    }
+    h2 {
+        text-align: center;
     }
 }
 html{
