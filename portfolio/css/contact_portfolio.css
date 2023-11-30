@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'BPreplayBold.otf';
+    src: url('../fonts/BPreplayBold.otf')
+}
+@media screen and  (min-width: 150px) and (max-width: 400px) {
+ 
+   .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'form'
+    'footer';
+    
+   }
+  
+}
+body{
+    background: rgb(2, 9, 23);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.header { grid-area: header;}
+.main{ grid-area: main;}
+.form{grid-area: form;}
+footer{ grid-area: footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'main  form'
+    'footer footer';
+    gap: 10px;
+    width: 100%;
+    padding: auto;
+    border: 10px;
+}
+.header {
+    text-align: center;
+   
+    border: 30px;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #90278e;
+    padding: auto;
+    font-size: 20px;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+   margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{/* mouse over link */
+    color: #fff;
+}
+ul li a:visited {
+    color: #90278e;
+}
+.main{
+    text-align: center;
+    font-size: large;
+}
+footer{
+    text-align: center;
+    font-size: 2em;
+}
+.form {
+    color: black;
+    font-size: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 15px;
+    background: #ccc;
+}
+div .form {
+    background-color: #ccc;
+}
+
