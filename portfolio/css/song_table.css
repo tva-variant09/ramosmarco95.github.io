@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*marcoramos*/
+@font-face{
+  font-family: 'BPreplayBold.otf';
+  src: url('../fonts/BPreplayBold.otf')
+}
+.tableStyle {
+  border: 9px solid #ffb703;
+  background-color: #8ecae6;
+  color: black;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 5px;
+}
+caption {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+thead {
+	background-color: #219ebc;
+}
+tr:nth-child(even) {
+  background: #D0E4F5;
+}
+tfoot {
+	text-align: center;
+  color: #FFFFFF;
+	background-color: #023047;
+}
+/* unvisited link */
+a:link {
+  color: rgb(238, 11, 238);
+}
+/* visited link */
+a:visited {
+  color: rgb(7, 110, 7);
+}
+/* mouse over link */
+a:hover {
+  color: red; 
+}
+/* selected link */
+a:active {
+  color: rgb(245, 164, 15);
+}

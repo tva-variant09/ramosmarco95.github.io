@@ -1,0 +1,62 @@
+/*marco ramos, 12/02/2023*/
+#main_container{
+    width:600px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#ffffff;
+    overflow: hidden;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+.border {
+    border:10px solid #666666;
+    border-radius: 15px;
+    width:100px;
+    height:100px;
+}
+#main_container h5{
+    font-size: 30px;
+    font-family: verdana;
+    text-transform:uppercase;
+    text-align: center;
+    color:#666666;   
+ }
+#a{
+    float: left;
+    margin-left: 250px;
+    margin-bottom: 2px;
+ }
+#b{
+    clear: left;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 2px;
+}
+ #c{
+    float: left;
+}
+ #d{
+    clear: left;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 2px;
+}
+#e{
+    float: left;
+}
+ #f{
+    float: left;
+}
+.blue {
+    color: dodgerblue;
+    border-color: dodgerblue;
+} 
+.red {
+    color: red;
+    border-color: red;
+}
+.green {
+    color: green;
+    border-color: green;
+}

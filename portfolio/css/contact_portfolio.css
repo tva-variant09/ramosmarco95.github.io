@@ -1,0 +1,78 @@
+@media screen and  (min-width: 150px) and (max-width: 400px) {
+    main{
+     display: block;
+     clear: both;
+    }
+    }
+@font-face{
+    font-family: 'BPreplayBold.otf';
+    src: url('../fonts/BPreplayBold.otf')
+}
+body{
+    background: rgb(2, 9, 23);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+main{
+    display: flex;
+}
+.header {
+    text-align: center;
+    border: 30px;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #90278e;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+    margin: 10px;
+}
+header img{
+    float: left;
+    border-radius: 100%;
+    padding: 10px;
+  }
+ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+   margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{/* mouse over link */
+    color: #fff;
+}
+ul li a:visited {
+    color: #90278e;
+}
+.contact{
+    text-align: center;
+    font-size: large;
+    width: 40%;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 2em;
+    clear: both;
+}
+.form {
+    color: black;
+    font-size: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    background: #ccc;
+    width: 40%;
+    margin: 10px;
+}
+div .form {
+    background-color: #ccc;
+}
+
+

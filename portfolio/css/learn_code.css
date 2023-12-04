@@ -1,0 +1,74 @@
+/*marco ramos, 10-19-2023*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+.pricebox {/*this control each container*/
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    /*float: left;*/
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pricing h2{
+    text-align: center; 
+}
+.h2_flexbox{
+    display: inline-block;
+}
+.pricebox h3 {
+    margin: 10px;
+    color: #000000;
+}
+.pricebox h4.price {
+    background: #8ae6ca ; 
+    color: #FFFFFF;
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+}
+.pricebox ul {
+    margin: 0;
+    padding: 0;
+}
+.pricebox ul li {
+    list-style-type: none;
+    border-top: 1px solid #8ce7db;
+    margin: 0;
+    padding: 8px;
+    color: #000000;
+}
+.pricebox ul li:nth-child(even) {
+    background: rgba(0, 0, 150, 0.1);
+}
+.pricebox p {
+    font-weight: bold;
+}
+.pricebox a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: white;
+    background: #8ce7db ;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: stretch;
+}
+
+div.pricebox:nth-of-type(2) h4.price,
+div.pricebox:nth-of-type(2) a.button {
+    background: #8ab8b8;
+}
+div.pricebox:nth-of-type(2) ul li:nth-child(even) {
+    background: rgba(0, 150, 0, 0.1);
+}
+.pricebox img {
+    overflow: hidden;
+    border-radius: 5px;
+    width: 90%;
+    align-items: stretch;
+}

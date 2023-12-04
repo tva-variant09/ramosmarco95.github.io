@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+/*marco ramos, 12/02/2023*/
+@media screen and  (min-width: 150px) and (max-width: 400px){
+    .container, .container2, .container3{
+        display: inline-block;
+        clear: both;
+        width: 90%;
+    }
+}
+@font-face{
+    font-family: 'BPreplayBold.otf';
+    src: url('../fonts/BPreplayBold.otf')
+}
+html{
+    background-color:  rgb(2, 9, 23);
+    color: white;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+    background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+    border-radius: 10px;
+    margin: 10px;
+}
+ul{
+    list-style: none;
+}
+nav li{
+    margin: 10px;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif; 
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+}
+header img{
+    float: left;
+    border-radius: 100%;
+    padding: 10px;
+}
+nav ul li a:link{/* unvisited link */
+    color:black;
+}
+nav ul li a:visited{ /* visited link */
+    color: #5d139e;
+}
+nav ul li a:hover{/* mouse over link */
+    color: red;
+}
+nav ul li a:active{ /* selected link */
+    color: green;
+}
+.container, .container2, .container3{
+    background: rgba(243,205,170, 0.4);
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.container ul{
+    list-style: circle;
+    font-size: 15px;
+}
+.pricing {/*this is my section element*/
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background: rgba(243,205,170, 0.4);
+    margin: 10px;
+    border-radius: 10px;
+}
+.container h2, .container2 h2, .container3 h2{
+    font-size: 20px;
+}
+.container2{
+    float: left;
+}
+.container3{
+    margin-top: 40px;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
