@@ -1,0 +1,28 @@
+/* marco ramos */
+#contact_form{
+    background: #ccc;
+    padding: 3em;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  div{
+    margin-bottom: 1em;
+  }
+  span{
+    color: red;
+  }
+  label{
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+  }
+  .messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  textarea {
+    height: 5em;
+    width: 20em;
+  }

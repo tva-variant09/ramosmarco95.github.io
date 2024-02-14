@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--marcoRamos, 01/23/2024-->
+<html lang="en-US">
+    <head>
+        <Title>Marco's Bakery</Title>
+        <meta name="author" content="Marco"/>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Marco Ramos Website Designer Boise Idaho"/>
+        <meta name="Keywords" content="bakery"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/bakery.css" type="text/css"/>
+        <link rel="stylesheet" href="css/order_form.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1>Marco's Bakery</h1></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="faqs.html">FAQ</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <div id="order_form">
+                <h1>Food Order</h1>
+                <form action="confirm.html" method="post">
+                    <div class="order_container">
+                        <label>Name:</label><br>
+                        <input type="text" id="name_last" name="name_last" placeholder="Name"> 
+                        <!-- <input type="text" id="name_last" name="name_last" placeholder="Last"> -->
+                        <span id="name_error">*</span>
+                    </div>
+                    <div class="order_container">
+                        <label>Address:</label><br>
+                        <input type="text" id="address_1" name="address_1" placeholder="Address Line 1"><br>
+                        <input type="text" id="address_2" name="address_2" placeholder="Address Line 2"><br>
+                        <input type="text" id="city" name="city" placeholder="City">
+                        <input type="text" id="state" name="state" placeholder="State">
+                        <input type="text" id="zip_code" name="zip_code" placeholder="Zip Code 2"><br>
+                    </div>
+                    <div class="order_container">
+                        <label>Phone Number:</label><br>
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="(000) 000-0000">
+                        <span id="phone_number_error">*</span>
+                    </div>
+                    <div class="order_container">
+                        <label>Email:</label><br>
+                        <input type="email" id="email_1" name="email_1" placeholder="example@gmail.com">
+                        <span id="email_error">*</span>
+                    </div>
+                    <div class="order_container">
+                        <label>What would you like to order?</label><br>
+                        <textarea name="textarea_description" id="textarea_description" placeholder="Description"></textarea><br>
+                    </div>
+                    <div class="order_container">
+                        <input type="button" id="submit_order" value="Submit Order">
+                        <input type="button" id="clear_form" value="Clear Order">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h3>Follow us:</h3>
+        </footer>
+        <script src="js/order_form.js"></script>
+    </body>
+</html>
