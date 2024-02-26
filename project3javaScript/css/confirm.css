@@ -1,0 +1,17 @@
+/* marco ramos */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 5em auto;
+    width: 640px;
+    border: 3px solid blue;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+html {
+    background-color: lightslategray;
+}

@@ -1,0 +1,59 @@
+.p1 {
+    text-align: center;
+    font-size: 30px;
+}
+img {
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+    
+}
+#slides1, #slides2 img {
+    display: none;
+
+}
+.slide_show {
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 20px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    
+}
+#main_menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+#cupcake_menu {
+    background-color: lightblue;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#doughnut_menu {
+    background-color: lightpink;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cheesecake_menu {
+    background-color: lightgreen;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#main_menu p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main_menu ul li {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

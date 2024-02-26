@@ -1,0 +1,64 @@
+/*marcoRamos, 01/23/2024*/
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategray;
+  margin: 0 auto;
+  padding: 3em;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  /* background-color: rgba(255,255,255,1); */
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+header{
+  background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+  height: 5em;
+  border-radius: 10px;
+  padding: 2em;
+}
+nav li{
+  display: inline-block;
+  padding: 2em;
+  font-size: 20px;
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+nav{
+  text-align: right;
+  text-decoration: none;
+}
+
+footer{
+  background: linear-gradient(rgba(255,255,255,1), rgba(144,199,227,1));
+  height: 5em;
+  border-radius: 10px;
+}
+h3{
+  text-align: center;
+}
+.images_footer {
+  display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+}
+.p_footer {
+  text-align: center;
+}
+footer svg path {
+  fill: rgb(233, 102, 124);
+}
+
+
+
+
