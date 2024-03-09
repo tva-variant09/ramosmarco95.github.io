@@ -1,0 +1,191 @@
+/* marco ramos
+03/04/2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face{
+    font-family: 'AlexBrush-Regular.ttf';
+    src: url('../fonts/AlexBrush-Regular.ttf');
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'BPreplayBold.otf';
+    src: url('../fonts/BPreplayBold.otf')
+}
+body {
+    background-color: lightslategray;
+}
+/* **********MAIN **************** */
+main {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.div_container1 {
+    grid-column: 1/2;
+}
+.welcome_index {
+    color: white;
+    margin: 20px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'AlexBrush-Regular.ttf', 'Times New Roman', serif;
+   
+}
+.div_menu_span span{
+    border: 3px solid white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: lightblue;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+    color: #555555;
+}
+.div_menu_span a {
+    text-decoration: none;
+}
+.div_menu_span {
+    clear: right;
+}
+.bakery_shop img{
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+}
+.bakery_shop {
+    display: flex;
+}
+.bakery_shop p {
+    margin: 25px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-indent: 50px;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;  
+}
+.bakery_shop span{
+    color: rgb(196, 29, 57);
+    font-weight: bolder;
+    
+}
+/* ***************NAV BAR******************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+    border-bottom: 1px solid #555555;
+}
+.menu {
+    width: 85%;
+    display: table;
+    table-layout: fixed;
+    float: left;
+    transition: all .5s ease;
+}
+.menu li {
+    display: table-cell;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px solid #5c5c5c;
+    border-left: 1px solid rgba(255,255,255,.2);
+}
+.menu li:first-child {
+    border-left: none;
+}
+.menu li:first-child:hover {
+    border-left: none;
+}
+.menu li a {
+    color:#555555;
+    display: block;
+    font-family: 'BPreplayBold.otf', 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+}
+.menu li:hover {
+    background: lightblue;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: none;
+
+}
+.menu li:active {
+    background: rgba(0,0,0,.3);
+    box-shadow: inset 0px 3px 2px rgba(0,0,0,.1);
+}
+.search_bar {
+    width: 15%;
+    float: left;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all .5s ease;
+}
+.search_bar input {
+    width:100%;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    border-bottom: 1px solid #858585;
+    padding: 0px 10px 0px 30px; /*this makes text start after the padding*/
+    box-sizing: border-box;
+    height: 30px;
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,.5);
+    background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+}
+.search_bar input:focus {
+    background: white;
+    box-shadow: none;
+}
+.search_bar svg {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    text-decoration: none;
+}
+
+/* *********FOOTER*********** */
+footer{
+    background: linear-gradient(rgba(255,255,255,1), rgba(144,199,227,1));
+    height: 5em;
+    border-radius: 10px;
+    margin: 20px;
+  }
+.images_footer {
+    display: flex;
+    justify-content: space-evenly;
+      align-items: center;
+      width: 250px;
+      margin: auto;
+}
+.p_footer {
+    text-align: center;
+    margin: 10px;
+}
+  footer svg path {
+    fill: rgb(233, 102, 124);
+}
+
+/* *************BACKGROUND ************ */
+/* body {
+    background-image: url("../images/main/wheatField.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+

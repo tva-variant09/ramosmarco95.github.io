@@ -1,0 +1,98 @@
+/* marco ramos
+03/04/2024 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+/* ************ORDER FORM*********** */
+#order_form label {
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+    margin-left: 5px;
+}
+.order_form {
+    width: fit-content;
+    margin: 10px;
+    background: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+#order_form {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: rgb(31, 41, 44);
+    font-weight: bold;
+    width: fit-content;
+}
+#order_form input {
+    width: 14em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    height: auto;
+    padding: 5px;
+}
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: rgb(31, 41, 44);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: .5em;
+    text-align: center;
+    
+}
+textarea {
+    width: 14em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+}
+#order_form #submit {
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+span {
+    color: red;
+    font-size: 15px;
+}
+/* ************MENU SLIDE SHOW*********** */
+.menu_slide_show {
+    font-family: 'Playfair Display', serif;
+    background: #ccc;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#caption {
+    color: red;
+    font-weight: bold;
+}
+#slides img {
+    display: none;
+}
+.menu_slide_show p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.menu_slide_show input {
+    margin: 5px auto;
+}
+#slide {
+    height: 250px;
+    width: auto;
+    margin: 10px;
+}

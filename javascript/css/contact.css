@@ -1,0 +1,151 @@
+/* marco ramos
+03/04/2024 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* ***********MAIN******************** */
+.grid_container {
+    display: grid;
+  grid-template-columns: auto auto;
+  align-content: space-between;
+    
+}
+.contact_form {
+    grid-column: 1/ span 2;
+}
+
+/* ************CONTACT FORM*********** */
+.contact_form {
+    width: fit-content;
+    margin: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+#contact_form {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: rgb(31, 41, 44);
+    font-weight: bold;
+    width: fit-content;
+}
+#contact_form label {
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+    margin-left: 1em;
+}
+#contact_form input {
+   padding: 5px;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    height: auto;
+}
+textarea {
+    width: 14em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    padding: 5px;
+    height: auto;
+}
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: rgb(31, 41, 44);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: .5em;
+    text-align: center;
+    margin-left: 1em;
+    
+}
+.radio_title {
+ text-align: left;
+ font-size: 15px;
+}
+.radio_fieldset {
+    border: none;
+}
+#contact_form #submit, #contact_form #reset {
+    width: auto;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: auto;
+}
+span {
+    color: red;
+    font-size: 15px;
+}
+.messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+/* ************NEWSLETTER FORM*********** */
+.newsletter_form {
+    background: #ccc;
+    padding: 3em;
+    width: fit-content;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: rgb(31, 41, 44);
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 20px;
+}
+#newsletter_form {
+    width: fit-content;
+}
+.newsletter_form p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.newsletter_container {
+    margin-bottom: 1em;
+}
+.newsletter_label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+.newsletter_input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+    padding: 5px;
+    height: auto;
+}
+span {
+    color: red;
+}
+#newsletter_form #join_list, #newsletter_form #clear_form {
+    width: auto;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: auto;
+}
+
+/* **********Button and Dialog************ */
+.owner_preview {
+    font-family: 'Playfair Display', serif;
+    background: #ccc;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 20px;
+}
+#owner_preview {
+    padding: 15px 25px;
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    margin: 20px;
+}
+#owner_preview img {
+    border: 2px solid lightblue;
+}
